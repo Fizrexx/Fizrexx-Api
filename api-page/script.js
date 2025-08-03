@@ -661,7 +661,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const creator = settings.apiSettings?.creator || "DanaS Api'S"
 
     setPageContent(DOM.pageTitle, settings.name, "DanaS Api'S")
-    setPageContent(DOM.wm, `© ${currentYear} Raol Api'S Corp. Semua hak dilindungi.`)
+    setPageContent(DOM.wm, `© ${currentYear} DanaS Api'S Corp. Semua hak dilindungi.`)
     setPageContent(DOM.appName, settings.name, "DanaS Api'S")
     setPageContent(DOM.sideNavName, settings.name || "API")
     setPageContent(DOM.versionBadge, settings.version, "v1.0")
