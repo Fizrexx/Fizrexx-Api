@@ -79,6 +79,12 @@
           "desc": "Get random high-quality Blue Archive character images",
           "path": "/random/ba",
           "status": "ready"
+        },
+        {
+          "name": "Cosplay Blue Archive",
+          "desc": "Random Foto Cosplayer Blue Archive",
+          "path": "/random/cosplay-ba",
+          "status": "ready"
         }
       ]
     }
