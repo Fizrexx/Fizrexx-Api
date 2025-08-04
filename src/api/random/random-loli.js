@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export default (app) => {
-  async function bluearchive() {
+  async function loli() {
     try {
       const { data } = await axios.get(
         `https://ryuu-endss-api.vercel.app/random/cosplay-ba`,
@@ -15,7 +15,7 @@ export default (app) => {
 
   app.get("/random/cosplay-ba", async (req, res) => {
     try {
-      const imageBuffer = await bluearchive()
+      const imageBuffer = await loli()
       res.writeHead(200, {
         "Content-Type": "image/png",
         "Content-Length": imageBuffer.length,
