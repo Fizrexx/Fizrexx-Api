@@ -7,18 +7,18 @@
   "sponsors": [
     {
       "id": "orangevps",
-      "name": "OrangeVPS",
+      "name": "Api Gratis",
       "logo": "",
-      "title": "Get VPS NVMe and Intel Processor Based",
-      "subtitle": "start from $1.88 USD/month",
-      "description": "Apply this Code to get additional 10% Lifetime Discount SM25-4M9GJA1BY",
-      "location": "Location Singapore, Hong Kong, US",
+      "title": "Dapatkan layanan Api Gratis",
+      "subtitle": "Mulai dari Gratis sampai berbayar",
+      "description": "Coba layanan Api Gratis",
+      "location": "Gratis Layanan Api Selamanya ",
       "buttonText": "Click here!",
       "buttonColor": "#ff6b35",
       "backgroundColor": "#1a1a1a",
       "textColor": "#ffffff",
       "bannerImage": "",
-      "url": "https://orangevps.com",
+      "url": "https://ryuu-endss-api.vercel.app/",
       "active": true
     },
     {
