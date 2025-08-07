@@ -85,6 +85,12 @@
           "desc": "Random Foto Cosplayer Blue Archive",
           "path": "/random/cosplay-ba",
           "status": "error"
+        },
+        { 
+          "name": "Foto cewek random",
+          "desc": "Foto Random Cewek",
+          "path": "/random/cewek",
+          "status": "error"
         }
       ]
     }
