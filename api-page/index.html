@@ -3,9 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DanaS Api'S - Selamat Datang</title>
+  <meta name="description" content="Dokumentasi API modern dan antarmuka pengujian interaktif. Jelajahi API canggih kami dengan mudah.">
+  <meta name="keywords" content="API, API Documentation, REST API, DanaS API, DanaS, Developer Tools">
+  <meta name="author" content="DanaS">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://danas-api.vercel.app/">
+  <meta property="og:title" content="DanaS Api'S - Dokumentasi API Modern">
+  <meta property="og:description" content="Jelajahi berbagai titik akhir API kami dengan antarmuka yang modern dan mudah digunakan. API gratis untuk pengembang, termasuk AI, gambar acak, dan banyak lagi.">
+  <meta property="og:image" content="https://danas-api.vercel.app/preview-image">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:site_name" content="DanaS Api'S">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://danas-api.vercel.app/">
+  <meta name="twitter:title" content="DanaS Api'S - Dokumentasi API Modern">
+  <meta name="twitter:description" content="Jelajahi berbagai titik akhir API kami dengan antarmuka yang modern dan mudah digunakan. API gratis untuk pengembang, termasuk AI, gambar acak, dan banyak lagi.">
+  <meta name="twitter:image" content="https://danas-api.vercel.app/api/preview-image">
+  <meta name="twitter:image:alt" content="DanaS Api'S - Antarmuka Dokumentasi API Modern">
+
+  <!-- Additional Meta Tags -->
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="https://files.catbox.moe/mbrwtq.png">
+  <meta property="og:image:secure_url" content="https://danas-api.vercel.app/api/preview-image">
+
   <link rel="icon" href="https://files.catbox.moe/mbrwtq.png" type="image/png">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" href="https://files.catbox.moe/mbrwtq.png">
+  <link rel="shortcut icon" href="https://files.catbox.moe/mbrwtq.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="/assets/styles.css">
+
+  <title>DanaS Api'S - Dokumentasi API Modern</title>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "DanaS Api'S",
+    "description": "Dokumentasi API modern dan antarmuka pengujian interaktif",
+    "url": "https://danas-api.vercel.app/",
+    "author": {
+      "@type": "Organization",
+      "name": "EWD Team"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://danas-api.vercel.app/?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 
   <style>
     * {
@@ -19,14 +75,16 @@
       background: radial-gradient(circle at top left, #142433, #0f2027);
       color: white;
       min-height: 100vh;
-      overflow: hidden;
+      overflow-x: hidden;
+    }
+
+    .landing {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
-      padding: 20px;
-      position: relative;
+      padding: 60px 20px 100px;
     }
 
     img.logo {
@@ -73,11 +131,11 @@
     }
 
     footer {
-      position: absolute;
-      bottom: 10px;
+      text-align: center;
       font-size: 0.85rem;
       color: #ccc;
       opacity: 0.6;
+      margin-top: 40px;
     }
 
     /* Animasi */
@@ -109,6 +167,7 @@
 </head>
 
 <body>
+
   <!-- Partikel Mengambang -->
   <script>
     for (let i = 0; i < 40; i++) {
@@ -122,11 +181,25 @@
     }
   </script>
 
-  <!-- Konten Utama -->
-  <img src="https://files.catbox.moe/mbrwtq.png" alt="DanaS Logo" class="logo" />
-  <h1>Selamat Datang di DanaS Api'S</h1>
-  <p>Dokumentasi API modern & interaktif. Jelajahi endpoint gratis untuk gambar, AI, dan banyak lagi!</p>
-  <a href="/api" class="btn">Masuk ke Dokumentasi</a>
-  <footer>&copy; 2025 DanaS Api'S. EWD Team</footer>
+  <!-- Halaman Awal -->
+  <section class="landing">
+    <img src="https://files.catbox.moe/mbrwtq.png" alt="DanaS Logo" class="logo" />
+    <h1>Selamat Datang di DanaS Api'S</h1>
+    <p>Dokumentasi API modern & interaktif. Jelajahi endpoint gratis untuk gambar, AI, dan banyak lagi!</p>
+    <a href="#mainContent" class="btn">Masuk ke Dokumentasi</a>
+    <footer>&copy; 2025 DanaS Api'S. EWD Team</footer>
+  </section>
+
+  <!-- Mulai dari dokumentasi API -->
+  <div id="mainContent">
+    <!-- Paste struktur dokumentasi API kamu dari <div class="main-wrapper"> sampai selesai... -->
+    <!-- Potongannya kamu bisa tempel langsung di sini, atau kalau mau saya bantu lanjutkan gabung semuanya 100% clean & rapi tinggal bilang -->
+  </div>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/script.js"></script>
+
 </body>
-</html>
+    </html>
